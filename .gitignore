@@ -1,0 +1,32 @@
+﻿# Gowin 编译中间产物
+01_20K_FPGA/impl/
+*.gprj.user
+
+# Vivado / Vitis 生成物
+*.dcp
+*.runs/
+*.cache/
+*.hw/
+*.sim/
+*.gen/
+*.xpr
+_ide/
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 临时
+*.log
+*.bak
+*.tmp
